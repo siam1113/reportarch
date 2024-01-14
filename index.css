@@ -1,0 +1,32 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  box-sizing: border-box;
+  color: azure;
+}
+
+a {
+  text-decoration: none;
+}
+
+.report-container {
+  background: darkblue;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.report-date-time {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.open-report-btn {
+  background: darkblue;
+  border: 1px solid azure;
+  padding: 0.3rem;
+  font-weight: bolder;
+  width: 7.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
