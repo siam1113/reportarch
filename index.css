@@ -1,20 +1,27 @@
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
   box-sizing: border-box;
-  color: azure;
+  color: darkblue;
 }
 
 a {
   text-decoration: none;
 }
 
+.header {
+  text-align: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
 .report-container {
-  background: darkblue;
+  background: azure;
   padding: 1rem;
   border-radius: 0.3rem;
   width: 50%;
   margin: auto;
   margin-top: 1rem;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px 1px lightgrey;
 }
 
 .report-date-time {
@@ -22,11 +29,51 @@ a {
 }
 
 .open-report-btn {
-  background: darkblue;
+  background: azure;
   border: 1px solid azure;
-  padding: 0.3rem;
+  padding: 0.5rem;
   font-weight: bolder;
-  width: 7.5rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: aliceblue;
+  border: 3px solid grey;
+}
+
+.btn-name {
+  padding: 0.3rem;
+}
+
+/**
+Login
+**/
+div#login-container {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+h1#title {
+  text-align: center;
+}
+
+input#orgId {
+  padding: 1rem;
+  width: 30rem;
+  font-size: 1.5rem;
+}
+
+input#submit {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: green;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: azure;
 }
