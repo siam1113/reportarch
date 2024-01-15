@@ -7,14 +7,14 @@ export const app = async (authStatus, org) => {
 
   main.className = 'main';
   header.className = 'header';
-  header.innerHTML = `${org.toUpperCase()} Automation Test Reports`;
-
+  
   document.body.appendChild(main);
-  main.appendChild(header);
 
   if (!authStatus){
     await login();
-  }else{   
+  }else{
+    header.innerHTML = `${org.toUpperCase()} Automation Test Reports`;
+    main.appendChild(header);
     main.appendChild(await getReportElements(org));
   }
 }
